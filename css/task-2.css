@@ -1,0 +1,17 @@
+.gallery li {
+    height: 300px;
+    width: 360px;
+    gap: 24px;
+}
+
+.gallery li img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
